@@ -1,0 +1,60 @@
+.login-screen {
+  min-height: 100vh;
+  background: #f0f4f5;
+  padding: 90px 10% 0;
+}
+
+.container {
+  display: flex;
+}
+
+.login-left {
+  flex-grow: 1;
+}
+
+h1 {
+  color: firebrick;
+  margin-bottom: 10px;
+  align-self: start;
+}
+
+.login-left > h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.login-left > p {
+  color: #505050;
+  margin: 8px 0;
+}
+
+.flex-cont {
+  display: flex;
+  margin: 24px 15px 0 0;
+  column-gap: 15px;
+}
+
+.img-card {
+  background: white;
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.img-card > img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.img-card:hover {
+  box-shadow: 1px 1px 10px #afafaf, -1px -1px 10px #afafaf;
+}
+
+.caption {
+  padding: 8px;
+  text-align: center;
+}

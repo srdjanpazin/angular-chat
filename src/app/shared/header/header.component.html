@@ -1,0 +1,11 @@
+<header>
+  <h2 class="header-branding">Angular Chat</h2>
+  <div class="flex-padding"></div>
+  <button class="account-options">
+    <img class="img-icon" [attr.src]="userImage" />
+    <span class="name" [innerText]="userFirstName"></span>
+  </button>
+  <a routerLink="/login" class="header-link" (click)="logOut()">
+    Log Out
+  </a>
+</header>

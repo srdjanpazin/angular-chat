@@ -1,0 +1,26 @@
+form.chat-bottom {
+	height: 55px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: #f8f8f8;
+}
+
+input#msg {
+	padding: 6px 10px;
+	border: 1px solid #606060;
+	border-radius: 16px;
+	margin: 0 10px;
+	flex-grow: 1;
+}
+
+form.chat-bottom > button {
+	border: 0;
+	padding: 0;
+	background: inherit;
+	cursor: pointer;
+}
+
+[type=submit] {
+	margin-right: 10px;
+}
