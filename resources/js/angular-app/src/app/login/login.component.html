@@ -1,0 +1,24 @@
+<div class="login-screen">
+  <h1>Angular Chat</h1>
+  <div class="container">
+    <div class="login-left">
+      <h2>Quick Logins</h2>
+      <p>Click on a picture to log in.</p>
+      <div class="flex-cont">
+        <div class="img-card" (click)="quickLogin('mark', 'secret')">
+          <img src="/assets/images/generated_photos_5e6886616d3b380006f18919.jpg"/>
+          <div class="caption">Mark</div>
+        </div>
+        <div class="img-card" (click)="quickLogin('paulsmith', 'secret')">
+          <img src="/assets/images/photo-by-face-generator_6141b1b1bcc495000d810575.jpg"/>
+          <div class="caption">Paul</div>
+        </div>
+        <div class="img-card" (click)="quickLogin('sophieevans', 'secret')">
+          <img src="/assets/images/generated_photos_5e68891b6d3b380006f22881.jpg"/>
+          <div class="caption">Sophie</div>
+        </div>
+      </div>
+    </div>
+    <app-login-form></app-login-form>
+  </div>
+</div>

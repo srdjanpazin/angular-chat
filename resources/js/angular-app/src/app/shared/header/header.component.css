@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid var(--inner-border);
+  padding: 5px 26px 5px 18px;
+  align-items: center;
+}
+
+.header-branding {
+  font-weight: 600;
+  font-size: 21px;
+  color: #292929;
+}
+
+.header-link {
+  color: #303030;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px 11px 7px;
+  border: 1px solid #303030;
+  border-radius: 20px;
+}
+
+.header-link:hover {
+  background: #e8e8e8;
+}
+
+.account-options {
+  display: flex;
+  background: transparent;
+  margin: 0 24px 0 0;
+  border: none;
+  border-radius: 21px;
+  padding: 4px 12px 4px 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account-options:hover {
+  background: #e8e8e8;
+}
+
+.img-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 6px 0 0;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+}

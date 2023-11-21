@@ -1,0 +1,17 @@
+<div>
+  <div class="chat-head">
+    <img class="chat-img" [attr.src]="imgSrc" />
+    <h3 class="h-contact-name">{{ contactName }}</h3>
+    <div class="flex-spacer"></div>
+    <button #infoBtn class="info-btn" (click)="toggleChatInfo()">
+      <img src="/assets/info-icon.svg" />
+    </button>
+  </div>
+  <div #body class="chat-body">
+    <app-chat-message
+      *ngFor="let message of messages"
+      [message]="message"
+      [currentUser]="currentUser"
+    ></app-chat-message>
+  </div>
+</div>

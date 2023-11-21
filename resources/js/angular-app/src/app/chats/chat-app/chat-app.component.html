@@ -1,0 +1,12 @@
+<div class="chat-wrapper">
+  <app-contacts-sidebar
+    [currentUser]="currentUser"
+    (contactsLoadedEvent)="loadInitialChat($event)"
+  >
+  </app-contacts-sidebar>
+  <main>
+    <ng-template chatHost></ng-template>
+    <app-chat-input (submitEvent)="sendMessage($event)"></app-chat-input>
+  </main>
+  <app-chat-info *ngIf="chatInfoShown"></app-chat-info>
+</div>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createAction } from '@ngrx/store';\nexport const toggleChatOptions = createAction('[Chat Sidebar Component] Toggle Chat Options');","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

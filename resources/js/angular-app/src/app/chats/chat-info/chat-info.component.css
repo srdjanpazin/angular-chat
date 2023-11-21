@@ -1,0 +1,39 @@
+:host {
+  width: 300px;
+  border-left: 1px solid var(--inner-border);
+  flex-shrink: 0;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-info-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 26px;
+}
+
+.category-wrapper {
+  width: 100%;
+  padding: 0 8px;
+}
+
+.settings-category {
+  display: flex;
+  width: 100%;
+  border-radius: 9px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.settings-category:hover {
+  background: #c0c0c0;
+}
+
+.settings-category > div {
+  flex-grow: 1;
+}

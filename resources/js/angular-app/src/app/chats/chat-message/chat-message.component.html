@@ -1,0 +1,11 @@
+<div id="m{{ message.id }}">
+	<div class="msg-cont">
+		<div *ngIf="isMyMessage" class="flex-padding"></div>
+		<div class="{{ isMyMessage ? 'msg-right' : 'msg-left' }} msg">
+			{{ message.content }}
+			<div class="time-tooltip">
+				{{ formattedDate }}
+			</div>
+		</div>
+	</div>
+</div>

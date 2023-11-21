@@ -1,0 +1,17 @@
+<aside id='contacts-sidebar'>
+    <div id="sidebar-head">
+        <span>Contacts</span>
+        <div class="sidebar-options">
+            <button (click)="toggleChatOptions($event)">
+                <img src="/assets/three_dots_icon.svg" />
+            </button>
+        </div>
+        <ul #chatOptions
+            *ngIf="chatOptionsActive"
+            class='chat-options app-ul'
+        >
+            <li>Create group</li>
+        </ul>
+    </div>
+    <ng-template contactHost></ng-template>
+</aside>

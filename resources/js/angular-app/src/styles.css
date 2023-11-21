@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+	box-sizing: border-box;
+}
+
+:root {
+  --inner-border: rgb(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+
+.msg-cont {
+	display: flex;
+	margin: 2px;
+}
+
+.msg {
+	font-size: 16px;
+	font-weight: normal;
+	padding: 5px 8px 6px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.msg:hover .time-tooltip {
+	visibility: visible;
+}
+
+.msg-right {
+	background: dodgerblue;
+	color: white;
+}
+
+.msg-left {
+	display: inline-block;
+	background: #e0e0e0;
+}
+
+.msg-time {
+	color: gray;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.flex-padding {
+	flex-grow: 1;
+}
+
+.time-tooltip {
+	width: max-content;
+	background: black;
+	color: white;
+	font-size: 14px;
+	padding: 6px;
+	opacity: 70%;
+	position: absolute;
+	top: 0;
+	right: 100%;
+	z-index: 2;
+	visibility: hidden;
+}
+
+.contact {
+	padding: 6px;
+}
+
+.contact:hover {
+	background: #eeeeee;
+	cursor: pointer;
+}
+
+/* Try adding the class in chat.component.css */
+.hide {
+	display: none !important;
+}
+
+.app-ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.img-icon {
+	display: block;
+}

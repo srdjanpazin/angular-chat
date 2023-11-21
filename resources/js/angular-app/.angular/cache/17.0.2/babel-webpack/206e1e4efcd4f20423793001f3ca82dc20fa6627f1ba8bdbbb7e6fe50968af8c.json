@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createAction, props } from \"@ngrx/store\";\nexport const logInUser = createAction('[Login Component] Log In User', props());\nexport const logOutUser = createAction('[Header Component] Log Out User');","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

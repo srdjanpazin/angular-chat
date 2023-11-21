@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createAction, props } from '@ngrx/store';\nexport const changeChat = createAction('[Contact Component] Change Chat', props());\nexport const addChat = createAction('[Contact Component] Add Chat', props());","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
